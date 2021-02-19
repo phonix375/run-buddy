@@ -1,3 +1,7 @@
 .DS_Store
+<<<<<<< HEAD
 key
 key.pub
+=======
+.vscode/
+>>>>>>> 920a464e28fe7e6387ebaf1023555dfd43e23efe
