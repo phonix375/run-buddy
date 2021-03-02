@@ -133,11 +133,12 @@ font-size: 1.55vw;
 
 /* heading styling */
 .section-title {
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
   font-size: 55px;
   color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  display: inline-block;
   border-bottom: 3px solid;
 }
 .primary-border {
@@ -150,21 +151,19 @@ font-size: 1.55vw;
 
 
 /* styling for into section */
-.intro{
-  text-align: center;
-}
+
 .intro p {
   line-height: 1.7;
   color: #39a6b2;
   width: 80%;
   font-size: 20px;
   margin: 0 auto;
+  text-align: center;
 }
 /* end of what we do section styling*/
 
 /* styling what you do section*/
 .steps {
-  text-align: center;
   background: #fce138;
 }
 .steps div{
@@ -192,10 +191,6 @@ font-size: 1.55vw;
 
 /* meet the trainers section*/
 
-
-.trainers{
-  text-align: center;
-}
 
 .trainer{
   width: 900px;
@@ -240,7 +235,6 @@ font-size: 1.55vw;
 
 /*style reach out section*/
  .contact{
-   text-align: center;
    background:#024e76 ;
  }
  .contact h2{
@@ -276,4 +270,11 @@ font-size: 1.55vw;
   color: #fce138;
 }
 
+
+
+/* utility classes*/
+.flex-row{
+  display: flex;
+}
+/*end of uutility classes */
 /* REACH OUT STYLES END */
