@@ -41,7 +41,7 @@ body {
   }
 
   header nav ul li a{
-margin: 0 30px;
+padding: 10px 15px;
 font-weight: lighter;
 font-size: 1.55vw;
   }
@@ -79,6 +79,8 @@ font-size: 1.55vw;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  align-items: flex-start;
+
  }
  .hero-form{
    color: #024e76;
@@ -95,7 +97,7 @@ font-size: 1.55vw;
   margin: 3.5%;
   color: #fff;
   font-size: 18px;
-  line-height: 1.3;
+  line-height: 1.2;
 }
 .hero-cta h2{
   font-style: italic;
@@ -137,7 +139,7 @@ font-size: 1.55vw;
   text-align: center;
   margin: 0 auto 35px auto;
   width: 50%;
-  font-size: 55px;
+  font-size: 48px;
   color: #024e76;
   border-bottom: 3px solid;
 }
@@ -325,4 +327,21 @@ font-size: 1.55vw;
   display: flex;
 }
 /*end of uutility classes */
+
+/* media queris */
+@media screen and (max-width: 980px){
+
+
+}
+
+@media screen and (max-width: 768px){
+
+
+}
+
+@media screen and (max-width: 575px){
+
+  
+}
+
 /* REACH OUT STYLES END */
